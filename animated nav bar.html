@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="animated navbar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+<div class="sidebar">
+    <div class="pro"></div>
+        <h1>Love You All</h1>
+    <hr>
+    <ul>
+        <li><a href="#"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+        <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="#"><i class="fa fa-newspaper-o"></i>News</a></li>
+        <li><a href="#"><i class="fa fa-bullhorn"></i>Blog</a></li>
+        <li><a href="#"><i class="fa fa-envelope"></i>Contact</a></li>
+        <li><a href="#"><i class="fa fa-user"></i>Sign In</a></li>
+    </ul>
+    <button class="sideBtn">
+        <span></span>
+    </button>
+</div>
+
+
+<script>
+    $('.sideBtn').click(function(){
+        $('.sidebar').toggleClass('active');
+         $('.sideBtn').toggleClass('toggle');
+
+    });
+</script>
+
+
+
+</body>
+</html>
